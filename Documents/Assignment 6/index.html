@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>St. Clair College — IT Professional Development College</title>
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+
+<body>
+  <header>
+    <h1>St. Clair College: IT Professional Development Online Enrollment</h1>
+    <p>Please complete the form below.</p>
+  </header>
+
+  <main>
+    <figure>
+      <img src="images/stclaircollege222.jpg.jpg" alt="St. Clair College Campus">
+      <figcaption>
+        Image source: <a href="#">Canadianassociationofmoldmakers</a>
+        <a href=""https://canadianassociationofmoldmakers.com/companies/st-clair-college/></a>
+      </figcaption>
+    </figure>
+
+    
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <section>
+          <label for="first-name">First Name</label>
+          <input id="first-name" name="first_name" type="text" required>
+        </section>
+
+        <section>
+          <label for="last-name">Last Name</label>
+          <input id="last-name" name="last_name" type="text" required>
+        </section>
+
+        <section>
+          <label for="email">Contact Email</label>
+          <input id="email" name="email" type="email" required>
+        </section>
+
+        <section>
+          <label for="dob">Date of Birth</label>
+          <input id="dob" name="date_of_birth" type="date" required>
+        </section>
+      </fieldset>
+
+      <fieldset>
+        <legend>Address</legend>
+
+        <section>
+          <label for="street">Street Address</label>
+          <input id="street" name="street_address" type="text" required>
+        </section>
+
+        <section>
+          <label for="city">City</label>
+          <input id="city" name="city" type="text" required>
+        </section>
+
+        <section>
+          <label for="province">Province</label>
+          <select id="province" name="province" required>
+            <option value="" selected disabled>Select a province</option>
+            <option>Ontario</option>
+            <option>British Columbia</option>
+            <option>Alberta</option>
+            <option>Quebec</option>
+            <option>Nova Scotia</option>
+            <option>New Brunswick</option>
+            <option>Manitoba</option>
+            <option>Saskatchewan</option>
+            <option>Prince Edward Island</option>
+            <option>Newfoundland and Labrador</option>
+            <option>Yukon</option>
+            <option>Northwest Territories</option>
+            <option>Nunavut</option>
+          </select>
+        </section>
+
+        <section>
+          <label for="postal">Postal Code</label>
+          <input id="postal" name="postal_code" type="text" required>
+        </section>
+
+        <section>
+          <label for="phone">Phone Number</label>
+          <input id="phone" name="phone" type="tel" required>
+        </section>
+      </fieldset>
+
+      <fieldset>
+        <legend>Schedule (choose one)</legend>
+        <label><input type="radio" name="schedule" value="evening" required> Evening</label>
+        <label><input type="radio" name="schedule" value="weekend"> Weekend</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Course Selection (choose one)</legend>
+        <label><input type="radio" name="course" value="ITCC353" required> Advanced Python - ITCC 353</label>
+        <label><input type="radio" name="course" value="ITCC118"> Java Advanced - ITCC 118</label>
+        <label><input type="radio" name="course" value="ITCC630"> Fundamentals of Cloud Computing - ITCC 630</label>
+        <label><input type="radio" name="course" value="ITCC138"> Introduction to Project JavaScript - ITCC 138</label>
+        <label><input type="radio" name="course" value="ITCC229"> Programming in C - ITCC 229</label>
+        <label><input type="radio" name="course" value="ITCC182"> Web Design for Mobile Applications - ITCC 182</label>
+      </fieldset>
+
+      <footer>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </footer>
+    </form>
+  </main>
+</body>
+</html>

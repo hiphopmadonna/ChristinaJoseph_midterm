@@ -1,0 +1,165 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f4;  /* soft white */
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+header {
+  background-color: #006a4e;  /* St. Clair green */
+  color: #fff;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+}
+
+header p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+figure {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+figure img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+figcaption {
+  font-size: 0.5rem;
+  text-align: center; right;
+  color: #555;
+  margin-top: 6px;
+}
+
+figcaption a {
+  color: #006a4e;
+  text-decoration: none;
+}
+figcaption a:hover {
+  text-decoration: underline;
+}
+
+fieldset {
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+  color: #006a4e;
+  padding: 0 6px;
+}
+
+section {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #ffcc00; /* gold */
+  box-shadow: 0 0 4px rgba(255, 204, 0, 0.4);
+}
+
+
+#street {
+  width: 100%;
+  max-width: 100%;
+}
+
+fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: normal;
+  margin: 6px 0;
+}
+
+input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #006a4e; /* green */
+  margin: 0;
+}
+
+footer {
+  text-align: right;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #006a4e; /* green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #ffcc00; /* gold */
+  color: #006a4e;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 15px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
